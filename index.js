@@ -30,13 +30,13 @@ describe('sayHiToGrandma(string)', function() {
 
 function sayHiToGrandma(string){
   if (string.toLowerCase() === string) {
-    string = "I can't hear you!"
+    grandma = "I can't hear you!"
   }
   if (string.toUpperCase() === string) {
-    string = "YES INDEED!"
+    grandma = "YES INDEED!"
   }
   if (string === "I love you, Grandma") {
-    string = "I love you, too."
+    grandma = "I love you, too."
   }
-  return string
+  return grandma
 }
